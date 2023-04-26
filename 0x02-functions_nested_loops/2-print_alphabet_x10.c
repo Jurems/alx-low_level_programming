@@ -1,24 +1,20 @@
 #include "main.h"
-  
-
 /**
- * main -This function  print alphabet in lower case x10
- * Return: void
+ *print - This function print_alphabet in lower case x10
+ *Return: void
  */
 
 void print_alphabet_x10(void)
-
 {
-
-        char c;
-        int i = 0;
-        while (i <= 9)
+char c;
+int i = 0;
+while (i <= 9)
 {
-        for (c = 'a'; c <= 'z'; c++)
+for (c = 'a'; c <= 'z'; c++)
 {
-                _putchar(c);
-        }
-        _putchar('\n');
-	i++;
-	}
+ _putchar(c);
+}
+_putchar('\n');
+i++;
+}
 }
