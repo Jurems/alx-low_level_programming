@@ -1,6 +1,8 @@
+#include "main.h"
 /*
  * This function prints the lower case alphabet ten times, with each iteration on a new line.
- * It does not take any arguments or return any values.
+ * It does not take any arguments or 
+ * return any values.
  */
 void print_alphabet_x10(void)
 {
