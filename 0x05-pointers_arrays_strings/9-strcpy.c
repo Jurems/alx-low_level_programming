@@ -1,8 +1,7 @@
 #include "main.h"
 
 /**
- * _strcpy - copy the string pointed to the src. 
- * including the terminating null byte (\0).
+ * _strcpy - copy the string pointed to the src to dest
  * @dest: char to check
  * @src: char to check
  * Return: 0 is success
