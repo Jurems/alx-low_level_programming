@@ -32,7 +32,7 @@ int **alloc_grid(int width, int height)
 		}
 	}
 
-	for (O = 0; o < height; o++)
+	for (o = 0; o < height; o++)
 		for (p = 0; p < width; p++)
 			gridout[o][p] = 0;
 
